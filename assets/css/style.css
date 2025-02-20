@@ -65,8 +65,20 @@
     line-height: 21px;
 }
 
+.lh-27 {
+    line-height: 27px;
+}
+
+.lh-61 {
+    line-height: 61.59px;
+}
+
 .lh-80 {
     line-height: 80px;
+}
+
+.lh-100 {
+    line-height: 100.56px;
 }
 
 /* header */
@@ -103,6 +115,45 @@
     pointer-events: none;
 }
 
+/* section 2 */
+.letter-spacing-28 {
+    letter-spacing: -0.28px;
+}
+
+.mt-134 {
+    margin-top: 134px;
+}
+
+.max-w-1090 {
+    max-width: 1090px;
+}
+
+.letter-spacing-66 {
+    letter-spacing: -0.66px;
+}
+
+.mt-20 {
+    margin-top: 20px !important;
+}
+
+.sumbit-btn {
+    /* padding: 14px 70px 14px 70px; */
+    max-width: 268px;
+    width: 100%;
+    height: 56px;
+    border-radius: 47px;
+    border: 2px solid var(--color-rage);
+}
+
+.sumbit-btn:hover {
+    background: var(--color-rage) !important;
+    color: var(--color-white);
+}
+
+.mb-105 {
+    margin-bottom: 105px;
+}
+
 @media (max-width:1023.98px) {
     .z_2 {
         z-index: 2;
@@ -135,6 +186,10 @@
 
     .gap-38 {
         gap: 20px;
+    }
+
+    .lh-100 {
+        line-height: normal;
     }
 }
 

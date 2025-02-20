@@ -9,13 +9,29 @@
     --fs-xl: 80px;
     /* color */
     --color-whisky-sour: #EBA82C;
-    --color-white:#FFFFFF;
-    --color-black:#00000040;
+    --color-vibrant-honey: #FEBE32;
+    --color-rage: #FF132D;
+    --color-white: #FFFFFF;
+    --color-black: #00000040;
+    --color-coco-black: #1D1D1B;
 }
 
 /* font family */
 .font-family-primary {
     font-family: var(--font-family-primary);
+}
+
+/* color */
+.color-coco-black {
+    color: var(--color-coco-black);
+}
+
+.color-vibrant-honey {
+    color: var(--color-vibrant-honey);
+}
+
+.color-rage {
+    color: var(--color-rage);
 }
 
 /* font size */
@@ -46,16 +62,20 @@
 @media (max-width:767.98px) {
     :root {
         --fs-lg: 60px;
+        --fs-xl:70px;
     }
 }
 
 @media (max-width:575.98px) {
     :root {
-        --fs-lg: 50px ;
+        --fs-lg: 50px;
+        --fs-md: 34px;
+        --fs-xl: 50px;
     }
 }
+
 @media (max-width:406.98px) {
     :root {
-        --fs-lg: 38px ;
+        --fs-lg: 38px;
     }
 }
