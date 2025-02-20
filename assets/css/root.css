@@ -15,7 +15,8 @@
     --color-black: #00000040;
     --color-coco-black: #1D1D1B;
     --bg-white-smoke: #F5F5F5;
-    --bg-xanthous:#F3B72C;
+    --bg-xanthous: #F3B72C;
+    --color-blue: #009FE3;
 }
 
 /* font family */
@@ -38,6 +39,10 @@
 
 .color-rage {
     color: var(--color-rage);
+}
+
+.color-blue {
+    color: var(--color-blue);
 }
 
 /* font size */

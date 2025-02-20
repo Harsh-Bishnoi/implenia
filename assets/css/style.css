@@ -69,6 +69,10 @@
     line-height: 27px;
 }
 
+.lh-44 {
+    line-height: 44px;
+}
+
 .lh-61 {
     line-height: 61.59px;
 }
@@ -142,7 +146,8 @@
     transition: all 300ms linear;
 }
 
-.sumbit-btn:hover {
+.sumbit-btn:hover,
+.start-btn:hover {
     background: var(--color-rage) !important;
     color: var(--color-white);
 }
@@ -178,6 +183,38 @@
 .mb-144 {
     margin-bottom: 144px !important;
 }
+
+/* section 4 */
+.mt-17 {
+    margin-top: 17px;
+}
+
+.mt-62 {
+    margin-top: 62px !important;
+}
+
+.box {
+    width: 323px;
+    border-radius: 28px;
+    border: 1px solid #000000;
+    padding: 18px 20px 19px 26px;
+}
+
+.max-w-277 {
+    max-width: 277px;
+}
+
+.mt-39 {
+    margin-top: 39px;
+}
+
+.start-btn {
+    width: 268px;
+    height: 56px;
+    border-radius: 47px;
+    border: 2px solid var(--color-rage);
+}
+
 
 @media (max-width:1023.98px) {
     .z_2 {
@@ -253,5 +290,9 @@
 
     .pl-45 {
         padding-left: 45px;
+    }
+
+    .ml-38 {
+        margin-left: 38px;
     }
 }
