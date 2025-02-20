@@ -84,6 +84,10 @@
     margin-top: 25px;
 }
 
+.text-shadow {
+    text-shadow: 0px 4px 8px 0px var(--color-black);
+}
+
 .bring-btn:hover {
     color: var(--color-whisky-sour) !important;
     background-color: var(--color-white) !important;
@@ -116,11 +120,21 @@
     }
 
     .lh-80 {
-        line-height: normal;
+        line-height: 70px;
     }
 
     .z_2 {
         z-index: 2;
+    }
+
+    .gap-38 {
+        gap: 20px;
+    }
+}
+
+@media (max-width:767.98px) {
+    .lh-80 {
+        line-height: 60px;
     }
 }
 
@@ -131,5 +145,13 @@
 
     .max-w-350 {
         max-width: 350px;
+    }
+
+    .nav-logo {
+        width: 60px;
+    }
+
+    .lh-80 {
+        line-height: 45px;
     }
 }
