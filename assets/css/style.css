@@ -5,6 +5,10 @@
     max-width: 1177px !important;
 }
 
+.max-w-1100 {
+    max-width: 1138px !important;
+}
+
 .menu-lines {
     width: 30px;
     height: 5px;
@@ -70,6 +74,7 @@
     background-image: url(../images/png/header-bg-img.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right;
 }
 
 .text-shadow {
@@ -81,6 +86,17 @@
     border-radius: 47px;
     border: 2px solid #FFFFFF;
     margin-top: 25px;
+}
+
+.bring-btn:hover {
+    color: var(--color-whisky-sour) !important;
+    background-color: #FFFFFF !important;
+}
+
+.boxly-img {
+    left: 0px;
+    bottom: 10px;
+    pointer-events: none;
 }
 
 @media (max-width:991.98px) {
@@ -102,4 +118,24 @@
     .show-navbar {
         right: 0 !important;
     }
+
+    .lh-80 {
+        line-height: normal;
+    }
+
+    .z_2 {
+        z-index: 2;
+    }
+}
+
+@media (max-width:575.98px) {
+    .w_100 {
+        width: 100%;
+    }
+
+    .max-w-350 {
+        max-width: 350px;
+    }
+
+
 }

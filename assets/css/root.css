@@ -40,3 +40,20 @@
 .fs-xl {
     font-size: var(--fs-xl);
 }
+
+@media (max-width:767.98px) {
+    :root {
+        --fs-lg: 60px;
+    }
+}
+
+@media (max-width:575.98px) {
+    :root {
+        --fs-lg: 50px ;
+    }
+}
+@media (max-width:406.98px) {
+    :root {
+        --fs-lg: 38px ;
+    }
+}
