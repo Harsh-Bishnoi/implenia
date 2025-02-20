@@ -89,10 +89,6 @@
     background-position: right;
 }
 
-.pl-45 {
-    padding-left: 45px;
-}
-
 .bring-btn {
     padding: 21px 51px 21px 51px;
     border-radius: 47px;
@@ -245,10 +241,6 @@
         line-height: 45px;
     }
 
-    .pl-45 {
-        padding-left: 12px;
-    }
-
     .bring-btn {
         padding: 11px 22px 11px 22px;
     }
@@ -257,5 +249,9 @@
 @media (min-width:992px) {
     .ml-27 {
         margin-left: 27px !important;
+    }
+
+    .pl-45 {
+        padding-left: 45px;
     }
 }
