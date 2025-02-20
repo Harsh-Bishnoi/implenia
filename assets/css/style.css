@@ -154,6 +154,34 @@
     margin-bottom: 105px;
 }
 
+/* section 3 */
+.video {
+    max-width: 1064px;
+    width: 100%;
+    height: 580px;
+    border-radius: 25px;
+}
+
+.mt-88 {
+    margin-top: 88px;
+}
+
+.video-card {
+    max-width: 372px;
+    width: 100%;
+    background-color: var(--bg-xanthous);
+    top: 24px;
+    left: 29px;
+}
+
+.mt-128 {
+    margin-top: 128px;
+}
+
+.mb-144 {
+    margin-bottom: 144px !important;
+}
+
 @media (max-width:1023.98px) {
     .z_2 {
         z-index: 2;
@@ -222,5 +250,11 @@
 
     .bring-btn {
         padding: 11px 22px 11px 22px;
+    }
+}
+
+@media (min-width:992px) {
+    .ml-27 {
+        margin-left: 27px !important;
     }
 }
