@@ -300,6 +300,11 @@
     .lh-100 {
         line-height: normal;
     }
+
+    .boxly-img {
+        left: 0 !important;
+        bottom: 0;
+    }
 }
 
 @media (max-width:767.98px) {
@@ -341,5 +346,12 @@
 
     .ml-38 {
         margin-left: 38px;
+    }
+}
+
+@media (max-width:1298.98px) {
+    .boxly-img {
+        left: -80px;
+        bottom: 40px;
     }
 }
