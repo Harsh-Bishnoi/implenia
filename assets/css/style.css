@@ -77,8 +77,12 @@
     background-position: right;
 }
 
+.pl-45 {
+    padding-left: 45px;
+}
+
 .bring-btn {
-    padding: 11px 22px 11px 22px;
+    padding: 21px 51px 21px 51px;
     border-radius: 47px;
     border: 2px solid var(--color-white);
     margin-top: 25px;
@@ -97,6 +101,12 @@
     left: 0px;
     bottom: 10px;
     pointer-events: none;
+}
+
+@media (max-width:1023.98px) {
+    .z_2 {
+        z-index: 2;
+    }
 }
 
 @media (max-width:991.98px) {
@@ -121,10 +131,6 @@
 
     .lh-80 {
         line-height: 70px;
-    }
-
-    .z_2 {
-        z-index: 2;
     }
 
     .gap-38 {
@@ -153,5 +159,13 @@
 
     .lh-80 {
         line-height: 45px;
+    }
+
+    .pl-45 {
+        padding-left: 12px;
+    }
+
+    .bring-btn {
+        padding: 11px 22px 11px 22px;
     }
 }
