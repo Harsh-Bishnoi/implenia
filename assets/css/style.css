@@ -84,9 +84,7 @@
     margin-top: 25px;
 }
 
-.text-shadow {
-    text-shadow: 0px 4px 8px 0px var(--color-black);
-}
+
 
 .bring-btn:hover {
     color: var(--color-whisky-sour) !important;
