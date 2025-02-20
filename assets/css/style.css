@@ -53,7 +53,7 @@
 }
 
 .bg-shadow {
-    box-shadow: 0px 4px 8px 0px #00000040;
+    box-shadow: 0px 4px 8px 0px var(--color-black);
 }
 
 /* line height */
@@ -77,20 +77,16 @@
     background-position: right;
 }
 
-.text-shadow {
-    box-shadow: 0px 4px 4px 0px #00000040;
-}
-
 .bring-btn {
     padding: 11px 22px 11px 22px;
     border-radius: 47px;
-    border: 2px solid #FFFFFF;
+    border: 2px solid var(--color-white);
     margin-top: 25px;
 }
 
 .bring-btn:hover {
     color: var(--color-whisky-sour) !important;
-    background-color: #FFFFFF !important;
+    background-color: var(--color-white) !important;
 }
 
 .boxly-img {
@@ -103,7 +99,7 @@
     .nav-link {
         display: flex !important;
         flex-direction: column;
-        background-color: white !important;
+        background-color: var(--color-white) !important;
         width: 100%;
         min-height: 100vh;
         position: fixed;
@@ -136,6 +132,4 @@
     .max-w-350 {
         max-width: 350px;
     }
-
-
 }
