@@ -366,6 +366,48 @@
     left: 16px;
 }
 
+/* section 7 accordion */
+.section-7 .accordion {
+    max-width: 1087px;
+    --bs-accordion-border-color: none !important;
+    --bs-accordion-btn-focus-box-shadow: none !important;
+}
+
+.mb-146 {
+    margin-bottom: 146px;
+}
+
+.section-7 .accordion-button {
+    padding-left: 0;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-right: 15px;
+}
+
+.section-7 .accordion-body {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 21px;
+}
+
+.section-7 .accordion-button::after {
+    background-image: url(../images/svg/accordion-arrow-img.svg) !important;
+    margin-top: 14px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.line {
+    border: 1px solid #9DA1A2;
+}
+
+.section-7 .accordion-button:not(.collapsed)::after {
+    rotate: 270deg !important;
+    margin-top: 0px;
+}
 
 @media (max-width:1023.98px) {
     .z_2 {
