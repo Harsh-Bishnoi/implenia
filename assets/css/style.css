@@ -418,7 +418,7 @@
 }
 
 .section-7 .accordion-button:not(.collapsed)::after {
-    rotate: 270deg !important;
+    transform: rotate(90deg) !important;
 }
 
 /* footer */
