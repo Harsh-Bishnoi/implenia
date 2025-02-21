@@ -17,6 +17,7 @@
     --bg-white-smoke: #F5F5F5;
     --bg-xanthous: #F3B72C;
     --color-blue: #009FE3;
+    --color-silver: #8F9090;
 }
 
 /* font family */
@@ -27,6 +28,10 @@
 /* color */
 .color-coco-black {
     color: var(--color-coco-black);
+}
+
+.color-silver {
+    color: var(--color-silver);
 }
 
 .bg-white-smoke {
@@ -74,6 +79,7 @@
     :root {
         --fs-lg: 60px;
         --fs-xl: 70px;
+        --fs-sm: 26px;
     }
 }
 
@@ -82,6 +88,7 @@
         --fs-lg: 50px;
         --fs-md: 34px;
         --fs-xl: 50px;
+        --fs-sm: 20px;
     }
 }
 
