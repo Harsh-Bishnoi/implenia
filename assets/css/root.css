@@ -60,6 +60,10 @@
     background-color: var(--color-whisky-sour);
 }
 
+.bg-rage {
+    background-color: var(--color-rage);
+}
+
 /* font size */
 .fs-extra-small {
     font-size: var(--fs-extra-small);
