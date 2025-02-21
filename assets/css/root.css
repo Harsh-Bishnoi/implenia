@@ -50,6 +50,14 @@
     color: var(--color-blue);
 }
 
+.bg-blue {
+    background-color: var(--color-blue);
+}
+
+.bg-whisky-sour{
+    background-color: var(--color-whisky-sour);
+}
+
 /* font size */
 .fs-extra-small {
     font-size: var(--fs-extra-small);
